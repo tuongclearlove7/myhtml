@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Đình Sơn</title>
+    <link rel="stylesheet" href="lay.css">
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>  
+    <div id="main">
+        <!-- HEADER -->
+        <div id="header">
+            <a href="https://www.facebook.com/NguyenDinhSon240704" class="fb-link"> 
+                <i class="ti-facebook"></i> 
+                : Nguyễn Đình Sơn
+            </a>
+            <p class="text-heading">
+                Chào Mừng Crush Đến Với WEB Của Mình 
+                <i class="heart-icon ti-heart"></i>
+            </p>
+        </div>
+        <!-- CONTENT -->
+        <div id="content">
+            <div class="content-text">
+                <h2 class="heading-content">
+                    Làm Người Yêu Tớ Nhé 
+                    <i class="heart-icon ti-heart"></i>
+                </h2>
+                <button class="true js-modal-open"> 
+                    Đồng Ý 
+                    <i class="ti-check"></i>
+                </button>
+
+                <button class="false"> 
+                    Không Nha  
+                    <i class="ti-close"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL -->
+        <div class="modal js-modal">
+            <div class="modal-content">   
+            <p class="love-text">Yêu Cậu 
+                <i class="heart-icon ti-heart"></i>
+            </p>
+            </div>
+        </div>
+</body>
+</html>
+
+<script>
+    const modalopen = document.querySelector('.js-modal-open')
+    const modal = document.querySelector('.js-modal')
+    function showbuytickets() {
+        modal.classList.add('open')
+    }
+    
+    // nghe hành vi click vào nút button close 
+    modalopen.addEventListener('click',showbuytickets)
+    modal.addEventListener('click',showbuytickets)
+</script>

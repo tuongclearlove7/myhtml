@@ -1,0 +1,22 @@
+html{
+    text-align: center;
+    background-color: tomato;
+}
+*{
+    margin: 0;
+    padding: auto;
+}
+.image{
+    width: 695px;
+    height: 500px;
+    padding: 10px;
+    box-shadow: 20px 20px 200px #aaaa inset;
+    cursor: no-drop;
+}
+.goodbye{
+    position: relative;
+    top: -60px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

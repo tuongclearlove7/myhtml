@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link>rel="stylesheet" type="text/css" href="styless.css"</link>
+<title>3D photo effect with pixi.js</title>
+</head>
+<body>
+<script src="pixi-v5.min.js"></script>
+<script>
+    let app = new PIXI.application({width: window.innerWidth, height: window.innerHeight});
+    document.body.appendChild(app.view);
+
+    let img =  new PIXI.Sprite.from("3d.png");
+    img.width = Window.innerWidth;
+    img.height = Window.innerHeight
+    app.stage.addChild(img);
+
+    depthMap = new PIXI.Sprite.from("3d-map.png");
+    app.stage.fillters = [displacementFilter];
+    
+    window.onmousemove = function(e) {
+        displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /20;
+        displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /20;
+    };
+
+</script>
+</body>
+</html>

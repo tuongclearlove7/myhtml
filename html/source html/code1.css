@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header {
+  background-color: palevioletred;
+  color: #fff;
+  height: 46px;
+  border-bottom: 1px solid #000 ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#header .fb-link {
+  text-align: left;
+  top : 0px;
+  left : 0px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#header .text-heading{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+#content {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url(/accsets/img/hinh-anh-chibi-tinh-yeu-cute-de-thuong.jpg) top center / cover no-repeat;
+}
+
+.content-text {
+  position: absolute;
+  top : 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.content-text .heading-content {
+  font-size: 34px;
+  font-style: italic;
+  color: fuchsia;
+}
+.content-text .false,
+.content-text .true{
+  margin-right: 30px;
+  margin-top: 50px;
+  font-size: 15px;
+  color: #fff;
+  background-color: hotpink;
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+.content-text .false{
+  margin-left: 15px;
+}
+
+.true:hover {
+  background-color: #fff;
+  color: hotpink;
+}
+
+.false:hover {
+  opacity: 0;
+}
+
+.modal{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.open{
+  display: flex;
+}
+
+.modal-content{
+  background-image: url(/accsets/img/bon-trai-tim-song-song_121245569.gif);
+  width: 900px;
+  min-height: 200px;
+  animation: modalfadein 1s ;
+}
+
+.modal .love-text{
+  width: 100%;
+  background-color: #fff;
+  font-size: 50px;
+  color: hotpink;
+  font-weight: 700;
+  text-align: center;
+}
+
+@keyframes modalfadein {
+  from{
+      opacity: 0;
+      transform: translateY(-200px);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}

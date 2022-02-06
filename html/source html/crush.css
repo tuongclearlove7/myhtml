@@ -1,0 +1,39 @@
+html{
+    background-color: pink;
+
+
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: royalblue;
+}
+
+
+.nut1{
+    background-color: gold;
+    font-size: 20px;
+    margin-left: 36rem;
+    color: black;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.nut2{
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    background: gold;
+    color: black;
+    margin-top: 50px;
+    margin-left: 38.5rem;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.tym{
+    margin-left: 200px;
+
+
+}

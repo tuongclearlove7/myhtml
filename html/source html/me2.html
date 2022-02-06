@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="vi" >
+<head>
+  <meta charset="UTF-8">
+    <link href="https://www.iconninja.com/files/203/415/780/thief-crime-anonym-hacker-anonymous-icon.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <title>Profile Card</title>
+
+  <script src="https://kit.fontawesome.com/f45daa8e40.js" crossorigin="anonymous"></script><link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+
+
+        
+         
+<div class="container">
+
+    <div class="profile-container">
+
+      <div class="profile-wrapper">
+
+        <div class="profile-card">
+          <div class="fav-icon">
+            <i class="far fa-heart"></i>
+          </div>
+
+          <!-- Profile-Picture -->
+      <img src="https://scontent-sin6-4.xx.fbcdn.net/v/t1.6435-9/236347229_988044808404730_1407576560768850822_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=NHKER2ixZvsAX9hFmGq&_nc_ht=scontent-sin6-4.xx&oh=9be8103789c2bd870fbd5d841785d680&oe=61582626">
+
+        
+
+      <h2>Phạm Trường</h2>
+      <h4>Developer, Designer and Freelancer.</h4>
+
+      <p>“Anh Yêu Em Nhiều Hơn Em Nghĩ” - Binary</p>
+      <p>“00110001 00110100 00110000 00110110 00110010 00110000 00110000 00110011”</p>
+
+      <!-- Social Icons -->
+      <div class="icons">
+        <a href="https://www.instagram.com/pamtrg/" target="blank" class=""><i class="" >&nbsp;View web</i></a>
+
+        
+        <!--<i class="fab fa-behance"></i>
+        <a href="https://www.linkedin.com/in/ph%C3%B9ng-minh-210bb11bb/" target="blank" <i class="fab fa-linkedin-in">&nbsp;Linkedin</i></a>-->
+      </div>
+
+     <style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'TUONG', Tahoma, Geneva, Verdana, sans-serif;
+  background: url(https://data.1freewallpapers.com/download/astronaut-colourful-background-4k-1920x1080.jpg);
+background-repeat: no-repeat; background-size: cover;
+}
+
+@-webkit-keyframes x1 {/*cubic-bezier(.25,.25,.75,.75)*/
+  0%   {-webkit-transform: scaleX(0) translateX(0);}
+  100% {-webkit-transform: scaleX(1) translateX(0);}
+}
+@-webkit-keyframes y1 {/*cubic-bezier(.25,.25,.75,.75)*/
+  0%   {-webkit-transform: scaleY(0) translateY(0);}
+  100% {-webkit-transform: scaleY(1) translateY(0);}
+}
+@-webkit-keyframes y2 {/*cubic-bezier(.25,.25,.75,.75)*/
+  0%   {-webkit-transform: rotate(45deg) translateY(100%) scaleY(0);}
+  100% {-webkit-transform: rotate(45deg) translateY(  0 ) scaleY(1);}
+}
+@-moz-keyframes x1 {/*cubic-bezier(.25,.25,.75,.75)*/
+  0%   {-moz-transform: scaleX(0) translateX(0);}
+  100% {-moz-transform: scaleX(1) translateX(0);}
+}
+@-moz-keyframes y1 {/*cubic-bezier(.25,.25,.75,.75)*/
+  0%   {-moz-transform: scaleY(0) translateY(0);}
+  100% {-moz-transform: scaleY(1) translateY(0);}
+}
+@-moz-keyframes y2 {/*cubic-bezier(.25,.25,.75,.75)*/
+  0%   {-moz-transform: rotate(45deg) translateY(100%) scaleY(0);}
+  100% {-moz-transform: rotate(45deg) translateY(  0 ) scaleY(1);}
+}
+/* Main Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .profile-container:hover */
+.profile-container {
+  width: 500px;
+  
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  transition: 1s all ease;
+  
+}
+
+.profile-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://scontent.fpnh15-1.fna.fbcdn.net/v/t1.0-9/s960x960/62482553_1184875575025707_2445030168993988608_o.jpg?_nc_cat=106&ccb=2&_nc_sid=8024bb&_nc_eui2=AeGG7HjeCHb9uxrD7mHdLKqN1dnFSvXMKKfV2cVK9cwop606VzvNS5IKppFCcSvFNXxOtVySHm2i1H3NVhpRe4TB&_nc_ohc=IyV_ZQZZd6wAX-fo5Hl&_nc_ht=scontent.fpnh15-1.fna&tp=7&oh=57f9228bc37f8a95fdcbf280da6eb886&oe=5FD0BB89') no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;  
+  transition: all .5s ease-in;
+}
+
+.profile-container:hover:before {
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+
+/* Profile Card Wrapper */
+.profile-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.profile-wrapper::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #2371ae 0%, #bb47d4 100%);
+  transform: skew(30deg) translateX(110%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+}
+
+.profile-wrapper::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #2371ae 0%, #bb47d4 100%);
+  transform: skew(30deg) translateX(-110%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+}
+
+.profile-container:hover .profile-wrapper::after{
+  transform: skew(30deg) translateX(110%);
+  background: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
+  
+}
+.profile-container:hover .profile-wrapper::before{
+  transform: skew(30deg) translateX(-110%);
+  background: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
+}
+
+/* Profile Card */
+.profile-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 10px;
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background: url(https://file.hstatic.net/200000053174/article/dan_ong_-_tinh_yeu_va_su_nghiep_3fac37292f5c448dae01d628d62f6cc6.jpg);
+}
+
+.profile-container:hover .profile-card {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.profile-card .fav-icon {
+  color: #ec0e0e;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 21px;
+  cursor: pointer;
+} 
+
+/* Profile Picture */
+.profile-card img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem 0;
+  border: 5px solid transparent;
+  background-image: linear-gradient(white, white), linear-gradient(to right, #bb47d4, #224fa7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* border: 2px solid #1999; */
+  position: relative;
+}
+
+.profile-card  h2 {
+  line-height: 1.2;
+  color: #222;
+}
+.profile-card  h4 {
+  line-height: 1.5;
+  color: #444;
+}
+
+.profile-card  p {
+  line-height: 1.2;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Profile Icons */
+.profile-card .icons {
+  display: flex;
+  color: #333;
+  width: 90%;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+
+.profile-card .icons i:hover {
+  background-image: linear-gradient(to right, #9eff3d 0%, #68f9f9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+/* Profile Button */
+.profile-card a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 8px 15px;
+  margin-top: 1rem;
+  background: #2371ae;
+  border-radius: 10px;
+  background: linear-gradient(to right, #bb47d4 0%, #2371ae 100%);
+}
+
+.profile-in{
+  position: relative;
+  margin-left: 100px;
+}
+
+
+     </style>
+  
+</body>
+</html>

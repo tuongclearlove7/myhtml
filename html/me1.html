@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://www.iconninja.com/files/203/415/780/thief-crime-anonym-hacker-anonymous-icon.svg" />
+    <title>Clearlove7</title>
+    <body>
+      
+      <div class="container">
+
+    <div class="profile-container">
+
+      <div class="profile-wrapper">
+
+        <div class="profile-card">
+          
+
+          <!-- Profile-Picture -->
+      <img class="avatar" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/236347229_988044808404730_1407576560768850822_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=mDGUFmmFKLUAX8cuWXl&_nc_ht=scontent-hkg4-1.xx&oh=6d72bd150f1d057bb295ac7bd49193fb&oe=61582626" alt="profile pics">
+      
+      <h2>Clearlove7</h2>
+      <h4>My name is Tuong</h4>
+
+      <p>WELCOME TO WEBSITE</p>
+          <p>
+            Thank you for visiting my website
+          </p>
+
+      <!-- Social Icons -->
+      
+
+      
+      <a class="procard"href="https://tran-the-tuong.glitch.me/">View Web</a>
+      
+        </div>
+        </div>
+        </div>
+        </div>
+      
+      <style>
+       * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(https://1.bp.blogspot.com/-u2hSFXpbBHE/XXdP6L4Z-mI/AAAAAAAASCw/FUV33m4vhBk1k-0A-wtDchM65fhN2yn4wCLcBGAs/s1600/hinh-nen-may-tinh-phong-canh-thien-nhien-full-hd%2B%252861%2529.jpg);
+ height: 100%;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+ font-weight: 400px;
+ -webkit-font-smoothing: antialiased; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+/* .profile-container:hover */
+.profile-container {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.2), 0 50px 50px 0 rgba(0, 0, 0, 0.100);
+  border-radius: 50%;
+  transition: 10s all cubic-bezier(0.25, 0.1, 0, 1.34);
+  
+}
+
+.profile-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('') no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;  
+  transition: all .5s ease-in;
+}
+
+.profile-container:hover:before {
+  opacity: 0;
+  transition: all .5s ease;
+}
+
+
+/* Profile Card Wrapper */
+.profile-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.profile-wrapper::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, red 0%, gold 100%);
+  transform: skew(30deg) translateX(110%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+}
+
+.profile-wrapper::after{
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, red 0%, gold 100%);
+  transform: skew(50deg) translateX(-110%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+}
+
+.profile-container:hover .profile-wrapper::after{
+  transform: skew(30deg) translateX(110%);
+  background: linear-gradient(to right, #f00c0c 0%, gold 100%);
+  
+}
+.profile-container:hover .profile-wrapper::before{
+  transform: skew(30deg) translateX(-210%);
+  background: linear-gradient(to right, red 0%, gold 100%);
+}
+
+/* Profile Card */
+.profile-card {
+  background: url(https://file.hstatic.net/200000053174/article/dan_ong_-_tinh_yeu_va_su_nghiep_3fac37292f5c448dae01d628d62f6cc6.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 10px;
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease;
+  
+}
+
+.profile-container:hover .profile-card {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.profile-card .fav-icon {
+  color: #ec0e0e;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 21px;
+  cursor: pointer;
+} 
+
+/* Profile Picture */
+.profile-card img {
+  display: block;
+  margin: 0 auto;
+  top: 0px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 50px;
+  border: 5px solid transparent;
+  background-image: linear-gradient(white, white), linear-gradient(to right, rgb(255, 102, 0), gold);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* border: 2px solid #1999; */
+  position: relative;
+}
+
+.profile-card  h2 {
+  margin-top: -30px;
+  line-height: 1.2;
+  color: Yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.profile-card  h4 {
+  line-height: 1.5;
+  font-style:italic;
+  color: gold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.profile-card  p {
+  line-height: 1.2;
+  color: orange;
+  margin-top: 20px 0;
+  font-size: x-large;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-style:italic;
+}
+
+/* Profile Icons */
+.profile-card .icons {
+  display: flex;
+  color: #333;
+  width: 90%;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.profile-card .icons i:hover {
+  background-image: linear-gradient(to right, #9eff3d 0%, #68f9f9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+/* Profile Button */
+.profile-card a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding: 8px 15px;
+  margin-top: 1rem;
+  background: #2371ae;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(255, 60, 0) 0%, gold 100%);
+}
+
+
+
+
+      </style>
+</head>
+<body>
+</footer>
+  </body>
+</html>
+</footer>
+  </body>
+</html>

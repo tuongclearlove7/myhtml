@@ -1,0 +1,7 @@
+$ : The term '$' is not recognized as the name of a cmdlet, function, script file, or operable 
+and try again.
+At line:1 char:1
++ $ git init
++ ~
+    + CategoryInfo          : ObjectNotFound: ($:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
