@@ -17,6 +17,8 @@ header{
   width: 100%;
   padding-top: 50px;
   padding-bottom: 20px;
+  border: 1px solid red;
+  margin-bottom: 20px;
 }
 
 header .container a{
@@ -24,27 +26,46 @@ header .container a{
     color: red;
     text-decoration: none;
     margin-top: 100px;
-    margin: 20px;
     font-size: 20px;
     font-family: cursive;
     border-bottom: 2px solid red;
 }
 
+nav {
+
+    border: 1px solid red;
+}
+
 main{
 
     padding-top: 0px;
+    clear: both;
 }
 
 .left{
-
     
     padding: 20px;
-    display: flex;
-    width: 100%;
-    
-
+    width: 480px;
+    float: left;
+    border: 1px solid red;
 }
-.left img{
+
+.right{
+
+    width: 450px;
+    float: left;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.block-content{
+
+    display: flex;
+    width: 500px;
+    padding: 20px 0px;
+}
+
+.block-content img{
 
     height: 200px;
     width: 300px;
@@ -52,7 +73,7 @@ main{
     
 }
 
-.left h3 a{
+.block-content h3 a{
 
    white-space: nowrap;
    text-decoration: none;
@@ -60,7 +81,7 @@ main{
    color: red;
 }
 
-.left p{
+.block-content p{
 
   
   text-decoration: none;
@@ -68,9 +89,39 @@ main{
   
 }
 
-.left h4 a{
+.block-content h4 a{
 
   text-decoration: none;
   padding: 20px;
   color: gray;
+}
+
+section{
+  
+    border-top: 1px solid red;
+    clear: both;
+}
+
+footer{
+
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    border-top: 1px solid red;
+}
+
+.footer-left{
+
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 120px;
+    float: left;
+    width: 400px;
+}
+
+.footer-right{
+
+  margin-top: 5px;
+  float: left;
+  width: 600px;
 }
