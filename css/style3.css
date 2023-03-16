@@ -1,0 +1,200 @@
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+
+
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+header{
+
+    width: 100%;
+    background-color: rgb(11, 70, 122);
+    height: 40px;
+}
+.logo{
+
+
+    float: left;
+    width: 30%;
+    padding: 10px 20px;
+
+}
+
+
+.logo img{
+
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin: 0px 3px;
+}
+
+.search{
+
+    float: right;
+    height: 30px;
+    padding: 6px;
+    margin-right: 15px;
+
+}
+
+.search input {
+
+    height: 25px;
+   
+}
+
+.search button{
+
+    height: 27px;
+    width: 80px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.banner{
+
+    height: 200px;
+    width: 100%;
+}
+
+
+
+.banner img{
+
+    height: 200px;
+    width: 100%;
+}
+
+.nav_menu{
+
+    width: 100%;
+    background-color: #2a5bc4;
+    height: 60px;
+   
+   
+}
+
+.nav_menu a{
+
+
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid rgb(204, 204, 204);
+}
+.nav_menu a:hover{
+
+    background-color: #507ad5;
+}
+
+main{
+
+    width: 100%;
+    height: 840px;
+}
+
+.left{
+
+    width: 30%;
+    float: left;
+    
+}
+
+.left h2{
+
+    
+    font-size: 20px;
+    border-bottom: 1px solid silver;
+    padding: 20px 0px;
+}
+
+.left h2 a{
+
+    text-decoration: none;
+    color: #2a5bc4;
+}
+
+.left h3{
+
+    padding: 10px;
+    border-bottom: 1px solid silver ;
+}
+
+.left img{
+
+    width: 300px;
+    height: 180px;
+    padding-top: 20px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.right{
+
+    width: 66%;
+    float: left;
+    padding: 2%;
+}
+
+.right h2{
+
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.product{
+
+    width: 100%;
+    display: flex;
+    margin: -15px;
+}
+
+.product img{
+
+    height: 300px;
+    width: 340px;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.product h3,.product a{
+
+    padding: 10px;
+    color: #2a5bc4;
+    text-decoration: none;
+}
+
+
+
+footer{
+
+    clear: both;
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid #507ad5;
+    background-color: rgb(229 229 229);
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.footer-top{
+
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
