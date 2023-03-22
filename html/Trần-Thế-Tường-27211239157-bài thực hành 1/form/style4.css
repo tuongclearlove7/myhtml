@@ -1,0 +1,287 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container header {
+
+    width: 100%;
+
+}
+
+
+.header-top{
+
+    width: 100%;
+    height: 50px;
+    background-color: snow;
+    border-bottom: 1px solid gray;
+
+}
+
+.header-top h2{
+
+    color: #b20929;
+    padding: 15px 0px;
+    font-family: sans-serif;
+
+}
+
+.header-bottom{
+
+    width: 100%;
+    height: 40px;
+    background-color: #b20929;
+}
+
+.header-bottom h4{
+
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.input1{
+
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.input1 label{
+
+    padding-right: 80px;
+    padding-left: 10px;
+}
+
+.input1 input{
+
+    height: 30px;
+    background-color: snow;
+    
+}
+
+.input1 input[type="checkbox"]{
+
+    height: 15px;
+    margin: 0px 0px 0px 10px;
+}
+
+.input2{
+
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.input2 label{
+
+    padding-right: 77px;
+    padding-left: 10px;
+
+}
+
+.input2 input{
+
+    height: 30px;
+    width: 300px;
+    background-color: snow;
+}
+
+.input2 a{
+
+    padding: 0px 30px;
+}
+
+.input3{
+
+    padding: 20px 0px 0px;
+    max-width: 100%;
+}
+
+.input3 label{
+
+    padding-right: 127px;
+    padding-left: 10px;
+}
+
+.input3 a{
+
+    padding-right: 103px;
+    padding-left: 10px;
+   
+}
+
+.input3 .address{
+
+    padding-right: 46px;
+    padding-left: 10px;
+}
+
+
+.input3 input{
+
+    height: 30px;
+    width: 778px;
+    background-color: snow;
+}
+
+.input3 p{
+
+    padding: 7px 178px 0px;
+    font-style: italic;
+}
+
+
+.select1{
+
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.select1 label{
+
+    
+    padding: 0px 73px 0px 10px;
+}
+
+.select1 a{
+
+    padding: 0px 30px
+}
+
+.select1 select{
+
+    height: 30px;
+    width: 302px;
+    background-color: snow;
+}
+
+.select1 p{
+
+    padding: 10px 0px 0px 180px;
+    font-style: italic;
+}
+
+.select2{
+
+    padding-top: 25px;
+    max-width: 100%;
+}
+
+.select2 label{
+
+    padding: 0px 45px 0px 10px;
+}
+
+.select2 select{
+
+    background-color: snow;
+    height: 30px;
+    width: 785px;
+}
+
+.choose-file{
+    padding-top: 20px;
+    max-width: 100%;
+
+}
+
+
+
+.choose-file label{
+
+    padding: 0px 70px 0px 10px;
+}
+
+.choose-file button{
+
+    height: 25px;
+}
+
+.choose-file p{
+
+    padding: 5px 0px 5px 217px;
+    color: #b20929;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+.choose-file a{
+
+    margin: 0px;
+    padding: 10px 0px 0px 215px;
+    font-style: italic;
+}
+
+.protection-code{
+
+    padding-top: 30px;
+    padding-left: 0px;
+    max-width: 100%;
+}
+
+.protection-code label{
+
+    float: left;
+    padding: 0px 115px 0px 10px;
+}
+
+.protection-code input{
+
+    float: left;
+    height: 45px;
+    width: 120px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+    color: #b20929;
+    border-bottom: 2px solid silver;
+    background-color: snow;
+}
+
+.protection-code img{
+
+    width: 220px;
+    height: 55px;
+    float: left;
+    padding: 0px 0px 0px 10px;
+}
+.protection-code p{
+
+    clear: both;
+    width: 365px;
+    padding: 10px 215px 5px;
+    font-size: 15.5px;
+    font-style: italic;
+
+
+}
+
+.protection-code button{
+
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 18px 0px 0px 40%;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: #b20929;
+}
+
+
+main{
+
+    padding: 0px 0px 200px 0px;
+    border-left: 2px solid silver;
+    border-right: 2px solid silver;
+}
