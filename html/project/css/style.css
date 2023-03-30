@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    margin:0 auto;
+    background-color: rgb(70, 70, 70);
+}
+.container-content{
+
+    max-width: 1285.6px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-nav{
+
+    max-width: 1285.6px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+header{
+
+
+    height: 100px;
+    width: 100%;
+    color: black;
+    background-color: rgb(34, 37, 40);
+    border-bottom: 2px solid rgb(48, 47, 60);
+}
+
+.mylogo{
+
+    width: 30%;
+    float: left;
+}
+
+.mylogo img{
+
+    float: left;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.rigister{
+
+    float: right;
+    width: 70%;
+}
+
+.rigister h2{
+
+    float: right;
+    margin-top: 35px;
+    width: 200px;
+    
+    font-family: sans-serif;
+}
+
+.rigister h2 a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section{
+
+   
+    padding-top: 50px;
+    height: 100%;
+    width: 60%;
+    float: left;
+    background-color: snow;
+    border-bottom: 2px solid white;
+}
+
+.block-container{
+
+    max-width: 685px;
+    margin: 0 auto;
+}
+
+.about-us{
+
+    clear: both;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.about-us h1{
+
+    padding-left: 0px;
+    padding-bottom: 30px;
+}
+
+.about-us img{
+
+    float: left;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.about-us h3{
+
+    padding-top: 20px;
+    color: crimson;
+    float: left;
+}
+
+.about-us p{
+
+    padding-top: 50px;
+    text-align: start;
+}
+
+section img{
+
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+section h1{
+
+    padding-left: 20px;
+    clear: both;
+}
+
+section p{
+
+    padding: 30px;
+    line-height: 2;
+
+}
+
+aside{
+
+
+    float: left;
+    margin: 0 auto;
+    height: 100%;
+    width: 40%;
+    padding-bottom: 100px;
+    background-color: rgb(70, 70, 70);
+
+   
+}
+
+.object{
+
+    text-align: center;
+}
+
+.object img{
+
+    margin-top: 50px;
+    width: 30%;
+    border-radius: 100%;
+}
+
+.object1{
+
+    width: 100%;
+    float: left;
+}
+
+.object1 h1{
+
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.object1 img{
+
+
+    border-radius: 10px;
+}
+
+
+
+
+aside h2{
+
+    padding-top: 15px;
+    color: white;
+}
+
+.container-right p{
+
+    line-height: 2;
+    font-style: italic;
+}
+
+aside p{
+
+    padding: 25px;
+    color: white;
+}
+
+
+.container-right{
+
+    max-width: 400px;
+    margin: 35px auto;
+}
+
+
+
+#mobile_menu{
+
+
+    display: none;
+}
+
+
+@media screen and (max-width: 770px){
+
+    .about-us h3{
+
+        padding-top: 20px;
+        padding-left: 20px;
+        color: crimson;
+        clear: both;
+    }
+
+    .about-us p{
+
+        padding-top: 10px;
+        padding-left: 20px;
+        float: left;
+        text-align: start;
+    }
+    
+    #mobile_menu{
+
+        display: block;
+    }
+
+    #nav_menu{
+
+        display: none;
+    }
+    
+    .container-content section{
+        float:none;
+        width: 100%;
+    }
+    .container-content aside{
+        float: none;
+        width: 100%;
+    }
+}
+
+#nav_menu{
+
+    border-bottom: 2px solid silver;
+    background-color: rgb(53, 53, 53);
+}
+
+#nav_menu ul li{
+    
+    list-style: none;
+    float: left;
+    padding: 20px 40px;
+    position: relative;
+}
+#nav_menu ul li ul{
+    display: none;
+    position: absolute;
+    text-align: center;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: -41px;
+    background-color: rgb(53, 53, 53);
+}
+#nav_menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#nav_menu ul li a:hover{
+    color:coral;
+}
+#nav_menu > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_menu ul li:hover > ul{
+
+    
+    display: block;
+}
+#nav_menu ul li ul li{
+    float: none;
+}
+
+footer{
+
+
+    border-top: 2px solid white;
+    clear: both;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    margin: auto;
+}
+
+
+.footer-top{
+
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-top p{
+
+    line-height: 1.5;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

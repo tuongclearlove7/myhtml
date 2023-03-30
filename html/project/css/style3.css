@@ -1,0 +1,16 @@
+section{
+
+    height: 500px;
+    padding-bottom: 100px;
+    width: 60%;
+    float: left;
+    background-size: 800px 600px;
+    background-image: url("../image/hyprland.png");
+    border-bottom: 2px solid white;
+}
+
+
+aside{
+
+    height: 500px;
+}
