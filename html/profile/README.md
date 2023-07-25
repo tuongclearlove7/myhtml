@@ -2,7 +2,7 @@
 
 ### Static Website
 ----------------------------------------------------------------
--   link : https://tuongclearlove7.github.io/Clearlove7-Profile/
+-   link : https://tuongclearlove7.github.io/ClearLove7-Blog/
 
 
 
