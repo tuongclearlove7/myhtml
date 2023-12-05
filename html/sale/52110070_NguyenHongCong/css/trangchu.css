@@ -1,0 +1,357 @@
+.container{
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.my-header{
+
+  background-color: red;
+}
+
+
+.my-banner{
+
+  max-width: 850px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.my-banner img{
+
+  width: 100%;
+}
+
+.my-nav{
+
+
+
+}
+
+.my-list-nav{
+
+
+
+}
+
+.navbar-red {
+  
+  background-color: #e01313;
+}
+
+.nav-link{
+
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+ 
+
+}
+
+.navbar-brand, 
+.fa.fa-facebook,
+.fa.fa-youtube,
+.fa.fa-wifi,
+.fa.fa-search,
+.fa.fa-user {
+
+  color: white;
+  text-decoration: none;
+}
+
+.logo-link{
+
+  padding: 0px 10px;
+  font-size: 20px;
+}
+
+.container-content{
+
+  padding-top: 15px;
+}
+
+.content-left{
+
+width: 57%;
+
+float: left;
+
+margin-right: 3%;
+}
+
+
+.content-right{
+
+padding-left: 0%;
+
+width: 40%;
+
+float: left;
+}
+
+
+.header-vo-thuat h2{
+
+  font-size: 25px;
+  color: #e01313;
+}
+
+.component-1{
+
+  float: left;
+  width: 65%;
+}
+
+.component-1-con-1{
+
+
+  padding-top: 10px;
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  
+}
+
+.component-1-con-1 img{
+
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+
+.component-2{
+
+  float: left;
+  width: 35%;
+}
+
+.component-2 img{
+
+  width: 100%;
+}
+
+.component-2 h4{
+
+  font-size: 20px;
+  line-height: 1.2;
+  width: 100%;
+  text-decoration: inherit;
+}
+
+
+.component-3{
+
+  width: 100%;
+  float: left;
+}
+
+
+.banner-component-3 img{
+
+  width: 100%;
+  padding-top: 15px;
+}
+
+.component-4{
+
+  float: left;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.component-4-con-1{
+
+  float: left;
+  width: 38%;
+  margin-right: 24%;
+}
+
+.component-4-con-2{
+
+  float: left;
+  width: 38%;
+}
+
+.component-4-con-1 img, .component-4-con-2 img{
+
+
+  width: 100%;
+}
+
+.component-5{
+
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+
+}
+
+.component-5-con-1{
+
+  width: 30%;
+  float: left;
+}
+
+.component-5-con-1 img{
+
+  width: 100%;
+  border-radius: 5px;
+}
+
+.component-5-con-2{
+
+  width: 65%;
+  padding-left: 5%;
+  float: left;
+}
+
+.gach-do{
+
+  color: #e01313;
+  font-weight: bold;
+}
+
+.component-right-1{
+
+    float: left;
+    width: 100%;
+}
+
+.component-right-1 h3{
+
+  font-size: 20px;
+  color: rgb(49, 49, 49);
+  padding-bottom: 20px;
+}
+
+.component-right-1-con-0{
+ 
+  padding-top: 45px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 335px;
+
+}
+
+.component-right-1-con-1{
+
+float: left;
+
+width: 100%;
+
+padding: 0px 0px;
+
+border-bottom: 1px solid silver;
+
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.component-right-1-con-1-img{
+
+  float: left;
+  width: 30%;
+}
+
+.component-right-1-con-1-img img{
+
+  width: 100%;
+}
+
+.component-right-1-con-1-text{
+
+  float: left;
+  width: 67%;
+  padding-left: 3%;
+
+}
+
+
+.component-right-1-con-1-text b{
+
+  width: 100%;
+}
+
+.o-so{
+
+  position: absolute;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  top: 618px;
+  right: 477px;
+}
+
+.o-so h2{
+
+  color: #e01313;
+}
+
+.my-footer{
+
+  padding-top: 20px;
+  width: 100%;
+  clear: both;
+}
+
+
+.footer-left{
+
+  padding: 20px;
+  float: left;
+  width: 50%;
+  background-color: rgb(55, 55, 55);
+  height: 260px;
+
+}
+
+.footer-right{
+
+  padding: 20px;
+  width: 50%;
+  float: left;
+  background-color: rgb(55, 55, 55);
+  height: 260px;
+
+}
+
+
+.footer-left h3, 
+.footer-left h4{
+
+  color: white;
+}
+
+.footer-left h3{
+
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.footer-left h4{
+
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.footer-right h3, 
+.footer-right h4{
+
+  color: white;
+}
+
+.footer-right h3{
+
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.footer-right h4{
+
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
